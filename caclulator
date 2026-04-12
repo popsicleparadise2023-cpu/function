@@ -1,0 +1,45 @@
+# addition function
+def add(P,Q):
+  
+  return P + Q
+
+#subtraction funtion
+def subtract(P,Q):
+  return P - Q
+
+# multiplicaqtion function
+
+def multiply(P,Q):
+  return P*Q
+
+def divide(P,Q):
+  return P/Q
+
+
+choice= input("please select an operation")
+
+num1 = int(input("enter first number"))
+num2 = int(input("enter a second number"))
+
+print("a-Addition \n")
+print("b-Subtraction \n")
+print("c-Multiplication \n")
+print("d-division \n")
+
+if  choice == 'a':
+  print(num1 ,'+',num2,"=", add(num1,num2))
+
+elif choice == 'b':
+  print(num1 ,'-',num2,"=", subtract(num1,num2))
+
+elif choice == 'c':
+  print(num1 ,'x',num2,"=", multiply(num1,num2))
+
+elif choice == 'd':
+ print(num1 ,'/',num2,"=", divide(num1,num2))
+
+else:
+  print('invalid input')
+  
+
+  
