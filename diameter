@@ -1,0 +1,23 @@
+choice = input("Enter which measurement you have \nDiameter \nradius\n")
+
+if choice == "Diameter":
+    diameter = int(input("Enter your diameter: "))
+    pi = 3.14
+
+    def circumference(diameter, pi):
+        return diameter * pi
+
+    print("The circumference is", circumference(diameter, pi))
+
+elif choice == "radius":
+    radius = int(input("Enter your radius: "))
+    pi = 3.14
+    to = 2
+
+    def circum(radius, pi, to):
+        return to * pi * radius
+
+    print("The circumference is", circum(radius, pi, to))
+
+else:
+    print("invalid input")
