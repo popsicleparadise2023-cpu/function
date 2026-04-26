@@ -1,0 +1,19 @@
+# define function to calculate cube
+
+def cube(number):
+    return number*number*number
+
+
+# function to see if its a cube
+#number is divisible by three
+
+def bythree(number):
+ if number %3 ==0:
+    return cube(number)
+ else:
+    return False
+ 
+# display result
+
+print(bythree(9))
+print(bythree(4))
