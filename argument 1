@@ -1,0 +1,9 @@
+def totalcalc(billamount,tipercen):
+    #define function to calculate tip
+
+    total = billamount*(1 + 0.01*tipercen) # adds the tax 
+    total = round(total,2)  # calculates the final total
+    print(f"please pay ${total}")  # prints the total anf f stores the calculations
+    #
+
+totalcalc(150,20) # function is called
