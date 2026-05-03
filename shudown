@@ -1,0 +1,6 @@
+def shudown():
+ ''' The shutdown function in python is a built in function that closes your computer. It can delete your files so that is why im not coding it'''
+
+
+
+print(shudown.__doc__)
