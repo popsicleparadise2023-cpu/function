@@ -1,0 +1,16 @@
+def payment():
+    price = int(input("Enter total price: "))
+    paid = int(input("Enter total paid: "))
+
+    balance = price - paid
+
+    if balance > 0:
+        print("Insufficient payment, remaining balance:", balance)
+
+    elif balance < 0:
+        print("Change due:", -balance)
+
+    else:
+        print("Payment complete, no charges")
+
+payment()
